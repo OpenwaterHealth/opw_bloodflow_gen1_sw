@@ -1,0 +1,139 @@
+{
+  "fessenden": {},
+  "3015": {
+    "gain": 1.0,
+    "separation_mm": 14.5,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.12
+  },
+  "3014": {
+    "gain": 4.0,
+    "separation_mm": 21.8,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.48
+  },
+  "3030": {
+    "gain": 8.0,
+    "separation_mm": 28.4,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst":  0.96
+  },
+  "3018": {
+    "gain": 16.0,
+    "separation_mm": 34.8,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 1.92
+  },
+  "franklin": {},
+  "3047": {
+    "gain": 1.0,
+    "separation_mm": 14.5,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.12,
+    "meanThres": 1
+  },
+  "3040": {
+    "gain": 4.0,
+    "separation_mm": 21.8,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.48,
+    "meanThres": 1
+  },
+  "3045": {
+    "gain": 8.0,
+    "separation_mm": 28.4,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.96,
+    "meanThres": 1
+  },
+  "4044": {
+    "gain": 16.0,
+    "separation_mm": 34.8,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 1.92,
+    "meanThres": 1
+  },
+  "sahl": {},
+  "3000": {
+    "gain": 1.0,
+    "separation_mm": 14.5,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.12
+  },
+  "3001": {
+    "gain": 4.0,
+    "separation_mm": 21.8,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.12
+  },
+  "3002": {
+    "gain": 8.0,
+    "separation_mm": 28.4,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst":  0.96
+  },
+  "3003": {
+    "gain": 16.0,
+    "separation_mm": 34.8,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 1.92
+  },
+  "schrodinger": {},
+  "3041": {
+    "gain": 1.0,
+    "separation_mm": 14.5,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.12,
+    "meanThres": 1
+  },
+  "3042": {
+    "gain": 4.0,
+    "separation_mm": 21.8,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.48,
+    "meanThres": 1
+  },
+  "3043": {
+    "gain": 8.0,
+    "separation_mm": 28.4,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst":  0.96,
+    "meanThres": 1
+  },
+  "3044": {
+    "gain": 16.0,
+    "separation_mm": 34.8,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 1.92,
+    "meanThres": 1
+  },
+  "strickland": {},
+  "3031": {
+    "gain": 1.0,
+    "separation_mm": 11.5,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.12,
+    "meanThres": 0
+  },
+  "3032": {
+    "gain": 4.0,
+    "separation_mm": 19.3,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.48,
+    "meanThres": 0
+  },
+  "3033": {
+    "gain": 8.0,
+    "separation_mm": 27.2,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 0.96,
+    "meanThres": 0
+  },
+  "3034": {
+    "gain": 16.0,
+    "separation_mm": 35.0,
+    "roi": { "x": 1356, "y": 1040, "r": 1400 },
+    "gainConst": 1.92,
+    "meanThres": 0
+  }
+}

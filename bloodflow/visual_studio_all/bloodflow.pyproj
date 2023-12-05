@@ -1,0 +1,70 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c8081608-6f8a-4e56-9a9c-4387c89576ab</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>..\app\scanUI.py</StartupFile>
+    <SearchPath>..\..\bazel-bin\bloodflow\plugin;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\app;..\plugin</SearchPath>
+    <WorkingDirectory>..\app\</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>bloodflow</Name>
+    <RootNamespace>bloodflow</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <TestFramework>Pytest</TestFramework>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda37-64</InterpreterId>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <CommandLineArguments>--align</CommandLineArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="plugin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\bloodflow\app\aligner.py">
+      <Link>app\aligner.py</Link>
+    </Compile>
+    <Compile Include="..\..\bloodflow\app\aligner_test.py">
+      <Link>app\aligner_test.py</Link>
+    </Compile>
+    <Compile Include="..\..\bloodflow\app\flat_field_fcns.py">
+      <Link>app\flat_field_fcns.py</Link>
+    </Compile>
+    <Compile Include="..\..\bloodflow\app\scanUI.py">
+      <Link>app\scanUI.py</Link>
+    </Compile>
+    <Compile Include="..\..\bloodflow\app\scanUI_test.py">
+      <Link>app\scanUI_test.py</Link>
+    </Compile>
+    <Compile Include="..\..\bloodflow\app\speckle_fcns.py">
+      <Link>app\speckle_fcns.py</Link>
+    </Compile>
+    <Compile Include="..\..\bloodflow\app\speckle_test.py">
+      <Link>app\speckle_test.py</Link>
+    </Compile>
+    <Compile Include="..\..\bloodflow\plugin\load_tst.py">
+      <Link>plugin\load_tst.py</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

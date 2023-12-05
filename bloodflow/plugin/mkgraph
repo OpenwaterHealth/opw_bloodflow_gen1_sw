@@ -1,0 +1,2 @@
+bazel query --noimplicit_deps 'deps(scan.dll)' --output graph > graph2.in
+/c/Users/jfs/anaconda3/envs/graphviz/Library/bin/graphviz/dot.exe -Tpng < graph2.in > graph2.png
