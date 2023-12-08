@@ -29,7 +29,6 @@ This guide outlines the steps for setting up a new Windows 10 PC for lab use. It
 - Install Google Chrome and set as default browser.
 - Customize desktop and File Explorer settings.
 - Install software like RealVNC Server, Git, Anaconda, Adobe Acrobat Reader, Bazel, Microsoft Visual Studio Community 2019.
-- Uninstall default apps like Candy Crush, Dropbox Promotion, etc.
 
 ## Network and Internet Settings
 
