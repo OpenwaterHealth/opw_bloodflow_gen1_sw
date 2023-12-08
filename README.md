@@ -6,6 +6,7 @@ This guide outlines the steps for setting up a new Windows 10 PC for lab use. It
 
 ## Table of Contents
 
+- [GEN1 Hardware](#hardware-reference)
 - [Initial Windows PC Setup](#initial-windows-pc-setup)
 - [Privacy and Security Settings](#privacy-and-security-settings)
 - [Software Installation and Configuration](#software-installation-and-configuration)
@@ -14,6 +15,10 @@ This guide outlines the steps for setting up a new Windows 10 PC for lab use. It
 - [Lab Specific Software and Device Setup](#lab-specific-software-and-device-setup)
 - [Final Steps and Testing](#final-steps-and-testing)
 
+## Hardware Reference
+
+- [GEN1 Hardware](https://github.com/OpenwaterInternet/opw_bloodflow_gen1_hw/tree/main)
+  
 ## Initial Windows PC Setup
 
 - Choose language, keyboard settings, and WiFi networks.
