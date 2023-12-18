@@ -1,5 +1,15 @@
 # Openwater Generation 1 Bloodflow Analysis
 
+## Overview
+
+The Openwater Blood Flow Analysis Device is an innovative diagnostic tool designed to non-invasively measure and monitor cerebral blood flow. Utilizing advanced near-infrared light techniques, it facilitates the detection of hemodynamic changes associated with various medical conditions, particularly cerebrovascular events like strokes.
+
+The Openwater Blood Flow Application repository is a comprehensive suite containing source code for the Gen1 Blood Flow Analysis Software, including the vision application itself, DSP kernel for real-time image data processing, User Interface, and Python modules for data analysis and visualization. For a more detailed overview, please visit our [Wiki](https://wiki.openwater.health/index.php/Main_Page).
+
+## Technology Description
+
+Openwater Stroke Diagnosis Technology [Technology Paper](https://wiki.openwater.health/index.php/Openwater_Stroke_Diagnosis_Technology)
+
 # New Lab Computer Setup Guide
 
 This guide outlines the steps for setting up a new Windows 10 PC for lab use. It includes configurations for privacy, security, software installations, and system settings.
@@ -56,3 +66,10 @@ This guide outlines the steps for setting up a new Windows 10 PC for lab use. It
 ---
 
 This guide ensures a consistent and secure setup for all lab computers. It is intended for lab technicians and IT staff.
+
+## Contribution Guide
+
+For more information on how to contribute to the project, please refer to the [Contribution Guide](CONTRIBUTING.md).
+
+## Investigational Use Only
+CAUTION - Investigational device. Limited by Federal (or United States) law to investigational use. opw_bloodflow_gen2_sw has *not* been evaluated by the FDA and is not designed for the treatment or diagnosis of any disease. It is provided AS-IS, with no warranties. User assumes all liability and responsibility for identifying and mitigating risks associated with using this software.
